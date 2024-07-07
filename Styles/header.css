@@ -1,0 +1,17 @@
+#dr_container{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 16px 0 22px 0;
+}
+#pic_dr{
+    width: 4.75em;
+}
+#greet{
+    font-weight: 700;
+    font-size: 1.84em;
+
+}
+#notice{
+    font-size: 1.17em;
+}

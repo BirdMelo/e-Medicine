@@ -1,0 +1,78 @@
+.query_container{
+    background-color: var(--container-background);
+    border-radius: 8px;
+    margin: 16px 0px 16px 0px;
+}
+
+.day{
+    font-weight: 700;
+    font-size: 1.34em;
+}
+
+.patient_data{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 16px 0px;
+}
+.patient_pic{
+    width: 2.67em;
+}
+.query_model_name{
+    margin-right: 7.84em;
+}
+.patient_name{
+    font-size: 14px;
+    font-weight: 700;
+}
+.query_model{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.chat_button{
+    border: none;
+    border-radius: 100%;
+    padding: 9.33px 9.33px;
+    display: flex;
+    background-color: var(--chat-button-background);
+}
+
+.query_slash{
+    margin: 12px 0px 9px;
+    border: none;
+    height: 1px;
+    background-color: var(--hr-color);
+}
+
+.call_container{
+    padding: 0px 16px 16px;
+}
+.query_time{
+    font-weight: 500;
+}
+.call_buttons{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 8px;
+}
+.call_button{
+    background-color: transparent;
+    padding: 13px 16px;
+    border: 1px solid var(--chat-button-background);
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+.video_call{
+    background-color: var(--call-button-color);
+    color: var(--container-background);
+    border: none;
+}
+.address{
+    background-color: var(--secundary-color);
+    color: var(--container-background);
+    width: 100%;
+}
