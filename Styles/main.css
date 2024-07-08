@@ -2,6 +2,7 @@
 
 @import url('./header.css');
 @import url('./queries.css');
+@import url('./footer.css');
 
 :root{
     --body-background:linear-gradient(#F8F4FF 100%,#EFF0F4 100%);
@@ -22,6 +23,7 @@ body{
     color: var(--main-text-color);
     font-size: 12px;
     padding: 16px;
+    margin-bottom: 50px;
 }
 .pic_radius{
     border-radius: 100%;

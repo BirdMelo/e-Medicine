@@ -1,0 +1,79 @@
+.add_query__buttons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--secundary-color);
+    padding: 15px;
+    border-radius: 100%;
+    color: var(--container-background);
+    width: 16px;
+    height: 16px;
+    font-size: 30px;
+    font-weight: 300;
+    box-shadow: var(--secundary-color) 0px 0px 20px;
+}
+#footer__hamburguer{
+    position: fixed;
+    inset: auto 10px 90px auto;
+}
+#add_query{
+    display: none;
+}
+.add_query:checked ~ #buttons_container{
+    display: block;
+}
+#buttons_container{
+    display: none;
+    position: fixed;
+    inset: 0;
+    background-color: #464646a6;
+}
+.buttons_burguers{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: fixed;
+    right: 10px;
+    gap: 16px;
+}
+#button__video{
+    bottom: 150px;
+}
+#button__pin{
+    bottom: 210px;
+}
+.explication__buttons{
+    background-color: var(--container-background);
+    border-radius:2.323px;
+    padding: 2px 8px;
+    font-weight: 500;
+}
+#footer__navBar{
+    position: fixed;
+    inset: auto 0 0 0;
+    background-color: var(--container-background);
+    padding: 10px 0px 16px;
+    border-radius: 12px 12px 0px 0px;
+
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.footer__navBar__button{
+    background-color: transparent;
+    border: none;
+}
+.button__container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+#button__query{
+    color: var(--secundary-color);
+}
+.button__img{
+    width: 20px;
+}
+

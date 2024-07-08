@@ -74,5 +74,5 @@
 .address{
     background-color: var(--secundary-color);
     color: var(--container-background);
-    width: 100%;
+    width: 80%;
 }
