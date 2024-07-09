@@ -20,7 +20,7 @@
 #add_query{
     display: none;
 }
-.add_query:checked ~ #buttons_container{
+#add_query:checked ~ #buttons_container{
     display: block;
 }
 #buttons_container{
@@ -74,6 +74,5 @@
     color: var(--secundary-color);
 }
 .button__img{
-    width: 20px;
+    width: 1.67em;
 }
-

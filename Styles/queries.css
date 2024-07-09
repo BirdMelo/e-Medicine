@@ -22,13 +22,14 @@
     margin-right: 7.84em;
 }
 .patient_name{
-    font-size: 14px;
+    font-size: 1.167em;
     font-weight: 700;
 }
 .query_model{
     display: flex;
     align-items: center;
     gap: 8px;
+    font-size: 1em;
 }
 .chat_button{
     border: none;
@@ -63,7 +64,7 @@
     border: 1px solid var(--chat-button-background);
     border-radius: 8px;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1.167em;
     cursor: pointer;
 }
 .video_call{
@@ -75,4 +76,23 @@
     background-color: var(--secundary-color);
     color: var(--container-background);
     width: 80%;
+}
+
+@media screen and (min-width:1024px) {
+    main{
+        padding: 0px 0px 0px 35px;
+    }
+    .query_block{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+        row-gap: 0px;
+    }
+    .query_container{
+        width: 27em;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    
 }

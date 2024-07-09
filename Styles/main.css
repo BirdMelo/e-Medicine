@@ -28,3 +28,8 @@ body{
 .pic_radius{
     border-radius: 100%;
 }
+@media screen and (min-width:1024px) {
+    body{
+        font-size: 16px;
+    }
+}
