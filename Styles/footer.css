@@ -16,11 +16,12 @@
 #footer__hamburguer{
     position: fixed;
     inset: auto 10px 90px auto;
+    z-index: 1;
 }
 #add_query{
     display: none;
 }
-#footer:has(#add_query:checked) .buttons_container{
+#add_query:checked ~ .buttons_container{
     display: block;
 }
 #buttons_container__black_BG{
