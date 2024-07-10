@@ -21,16 +21,14 @@
 #add_query{
     display: none;
 }
-#add_query:checked ~ .buttons_container{
+#add_query:checked ~ #buttons_container{
     display: block;
 }
-#buttons_container__black_BG{
+#buttons_container{
+    display: none;
     position: fixed;
     inset: 0;
     background-color: #464646a6;
-}
-.buttons_container{
-    display: none;
 }
 .buttons_burguers{
     display: flex;
