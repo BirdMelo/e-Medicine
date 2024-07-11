@@ -64,6 +64,19 @@
 .footer__navBar__button{
     background-color: transparent;
     border: none;
+    cursor: pointer;
+}
+.button__img__hover{
+    display: none;
+}
+.footer__navBar__button:hover{
+    color: var(--secundary-color);
+}
+.footer__navBar__button:hover .button__img__default{
+    display: none;
+}
+.footer__navBar__button:hover .button__img__hover{
+    display: block;
 }
 .button__container{
     display: flex;
@@ -75,5 +88,26 @@
     color: var(--secundary-color);
 }
 .button__img{
-    width: 1.67em;
+    width: 100%;
+    height: 100%;
+}
+.button__img__container{
+    width: 1.834em;
+    height: 1.834em;
+}
+
+@media screen and (min-width:1280px) {
+    #footer__navBar{
+        inset: 0 87% 0 0;
+
+        flex-direction: column;
+        justify-content: start;
+        gap: 20px;
+        border-radius: 0%;
+        box-shadow: 2px 0px 15px #464646a6;
+        padding: 25px 0px 0px 15px;
+    }
+    .button__container{
+        flex-direction: row;
+    }
 }
