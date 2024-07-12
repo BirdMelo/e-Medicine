@@ -59,7 +59,7 @@
 
     display: flex;
     justify-content: center;
-    gap: 10%;
+    gap: 5%;
 }
 .footer__navBar__button{
     background-color: transparent;
@@ -95,8 +95,88 @@
     width: 1.834em;
     height: 1.834em;
 }
+#register{
+    display: none;
+}
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:768px) {
+    #footer__hamburguer{
+        display: none;
+    }
+    #register{
+        display: grid;
+        background-color: var(--container-background);
+        gap: 20px;
+        justify-content: center;
+        border-radius: 8px;
+        padding: 25px 0px;
+    }
+    #register__title{
+        font-size: 1.34em;
+        font-weight: 700;
+        text-align: center;
+    }
+    #register__camps{
+        display: grid;
+        row-gap: 15px;
+    }
+    .register__camp{
+        display: grid;
+        row-gap: 5px;
+    }
+    .register__camp__name{
+        font-weight: 500;
+    }
+    .camp__input{
+        font-family: var(--main-font);
+        color: var(--main-text-color);
+        font-weight: 500;
+        height: 25px;
+        border: solid 1px var(--light-text-color);
+        border-radius: 16px;
+        padding: 0px 10px;
+    }
+    .camp__input::placeholder{
+        font-family: var(--main-font);
+        color: var(--main-text-color);
+        font-weight: 500;
+    }
+    #register__choice_query{
+        display: flex;
+        margin-top: 5px;
+        gap: 15px;
+    }
+    .choice_label{
+        border: 1px solid var(--light-text-color);
+        border-radius: 16px;
+        padding: 5px 10px;
+    }
+    #choice_query__online,#choice_query__FtF{
+        display: none;
+    }
+    input[type="radio"]:checked + label{
+        background-color: var(--secundary-color);
+        color: var(--container-background);
+    }
+    #register__DateAndTime{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    .camp__input:hover, .choice_label:hover{
+        cursor: pointer;
+        border: 1px solid var(--secundary-color);
+    }
+    #register__salve{
+        background-color: var(--container-background);
+    }
+    #register__salve:active{
+        background-color: var(--secundary-color);
+        color: var(--container-background);
+    }
+}
+
+@media screen and (min-width:1024px) {
     #footer__navBar{
         inset: 0 87% 0 0;
 
@@ -109,5 +189,8 @@
     }
     .button__container{
         flex-direction: row;
+    }
+    #register{
+        margin: auto 4%;
     }
 }

@@ -79,9 +79,6 @@
 }
 
 @media screen and (min-width:1024px) {
-    main{
-        padding: 0px 0px 0px 35px;
-    }
     .query_block{
         display: flex;
         flex-wrap: wrap;
@@ -89,10 +86,6 @@
         row-gap: 0px;
     }
     .query_container{
-        width: 31%;
+        width: 46%;
     }
-}
-
-@media screen and (min-width:1280px) {
-    
 }

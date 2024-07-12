@@ -227,6 +227,45 @@
         </section>
     </main>
     <footer id="footer">
+        <section id="register">
+            <h2 id="register__title">Cadastrar Consulta</h2>
+            <ul id="register__camps">
+                <li class="register__camp">
+                    <p class="register__camp__name">Nome do paciente</p>
+                    <input type="text" class="camp__input">
+                </li>
+                <li class="register__camp">
+                    <p class="register__camp__name">Escolha o tipo de consulta</p>
+                    <div id="register__choice_query">
+                        <input type="radio" name="choice_query" id="choice_query__online">
+                        <label for="choice_query__online" class="choice_label">
+                            Consulta Online
+                        </label>
+
+                        <input type="radio" name="choice_query" id="choice_query__FtF">
+                        <label for="choice_query__FtF" class="choice_label">
+                            Consulta Presencial
+                        </label>
+                    </div>
+
+                </li>
+                <div id="register__DateAndTime">
+                    <li class="register__camp">
+                        <p class="register__camp__name">Data da consulta</p>
+                        <input type="date" class="camp__input">
+                    </li>
+                    <li class="register__camp">
+                        <p class="register__camp__name">Horario</p>
+                        <input type="time" class="camp__input">
+                    </li>
+                </div>
+                <li class="register__camp">
+                    <p class="register__camp__name">Observações</p>
+                    <input type="text" class="camp__input" placeholder="anotações e/ou endereços">
+                </li>
+            </ul>
+            <button class="camp__input" id="register__salve">Salvar Consulta</button>
+        </section>
         <section id="footer__navBar">
             <button class="footer__navBar__button" type="button">
                 <div class="button__container">
@@ -266,7 +305,7 @@
             </button>
         </section>
         <section>
-            <input type="checkbox" id="add_query" class="add_query_check">
+            <input type="checkbox" id="add_query">
             <label for="add_query" class="add_query__buttons" id="footer__hamburguer">
                 <span><img src="./img/maisicone.svg" alt="adicionar consulta"></span>
             </label>

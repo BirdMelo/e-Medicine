@@ -23,17 +23,20 @@ body{
     color: var(--main-text-color);
     font-size: 12px;
     padding: 16px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 .pic_radius{
     border-radius: 100%;
 }
-@media screen and (min-width:1024px) {
+@media screen and (min-width:768px) {
     body{
         font-size: 16px;
     }
 }
-@media screen and (min-width:1280px) {
+@media screen and (min-width:1024px) {
+    main{
+        padding: 0px 0px 0px 35px;
+    }
     body{
         margin-left: 13%;
     }
